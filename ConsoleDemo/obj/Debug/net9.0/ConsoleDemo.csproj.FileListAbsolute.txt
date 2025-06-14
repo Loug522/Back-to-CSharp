@@ -1,0 +1,15 @@
+c:\Users\User\OneDrive\바탕 화면\CSharp\.git\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\ConsoleDemo.exe
+c:\Users\User\OneDrive\바탕 화면\CSharp\.git\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\ConsoleDemo.deps.json
+c:\Users\User\OneDrive\바탕 화면\CSharp\.git\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\ConsoleDemo.runtimeconfig.json
+c:\Users\User\OneDrive\바탕 화면\CSharp\.git\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\ConsoleDemo.dll
+c:\Users\User\OneDrive\바탕 화면\CSharp\.git\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\ConsoleDemo.pdb
+c:\Users\User\OneDrive\바탕 화면\CSharp\.git\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\ConsoleDemo.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\User\OneDrive\바탕 화면\CSharp\.git\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\ConsoleDemo.AssemblyInfoInputs.cache
+c:\Users\User\OneDrive\바탕 화면\CSharp\.git\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\ConsoleDemo.AssemblyInfo.cs
+c:\Users\User\OneDrive\바탕 화면\CSharp\.git\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\ConsoleDemo.csproj.CoreCompileInputs.cache
+c:\Users\User\OneDrive\바탕 화면\CSharp\.git\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\ConsoleDemo.sourcelink.json
+c:\Users\User\OneDrive\바탕 화면\CSharp\.git\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\ConsoleDemo.dll
+c:\Users\User\OneDrive\바탕 화면\CSharp\.git\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\refint\ConsoleDemo.dll
+c:\Users\User\OneDrive\바탕 화면\CSharp\.git\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\ConsoleDemo.pdb
+c:\Users\User\OneDrive\바탕 화면\CSharp\.git\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\ConsoleDemo.genruntimeconfig.cache
+c:\Users\User\OneDrive\바탕 화면\CSharp\.git\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\ref\ConsoleDemo.dll
