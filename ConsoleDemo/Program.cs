@@ -4,7 +4,22 @@
     {
         public static void Main(string[] args)
         {
-            int start = 0;
+            string myStr = "Neun Welten";
+            char[] charArr = myStr.ToCharArray();
+            Array.Reverse(charArr);
+            foreach (char charItem in charArr)
+            {
+                Console.Write($"{charItem}");
+            }
+            
+
+            /* string[] namesArr = new string[] { "Haejoon", "Eunyung", "Mari", "Juwan" };
+            foreach (string name in namesArr)
+            {
+                Console.WriteLine($"{name}");
+            } */
+
+            /* int start = 0;
             int end = 0;
             int total = 0;
 
@@ -20,12 +35,10 @@
                         System.Console.Write("Ends at: ");
                         end = Convert.ToInt32(Console.ReadLine());
                     }
-                } 
+                }
                 total += i;
             }
-            Console.WriteLine($"The sum from {start} through {end} is equal to {total}.");
-            
-
+            Console.WriteLine($"The sum from {start} through {end} is equal to {total}."); */
 
 
             /* for (int i = 0; i <= 5; i++)
@@ -36,6 +49,7 @@
                 }
                 Console.WriteLine();
             } */
+
 
             /* Console.Write("Please type your name: ");
             var name = Console.ReadLine();
