@@ -6,7 +6,10 @@
         {
             Console.Write("Please type your name: ");
             var name = Console.ReadLine();
-            Console.WriteLine($"Hello, {name}");
+            string providedName = name == "Loug" ? name : "invalid name";
+
+            // Console.WriteLine("Hello, {0}", providedName);
+            Console.WriteLine($"Hello, {providedName}");
         }
     }
 }
