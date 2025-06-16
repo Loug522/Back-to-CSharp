@@ -4,14 +4,38 @@
     {
         public static void Main(string[] args)
         {
-            for (int i = 0; i <= 5; i++)
+            int start = 0;
+            int end = 0;
+            int total = 0;
+
+            for (var i = start; i <= end; i++)
+            {
+                if (start < 1)
+                {
+                    System.Console.Write("Starts at: ");
+                    start = Convert.ToInt32(Console.ReadLine());
+
+                    if (end <= start)
+                    {
+                        System.Console.Write("Ends at: ");
+                        end = Convert.ToInt32(Console.ReadLine());
+                    }
+                } 
+                total += i;
+            }
+            Console.WriteLine($"The sum from {start} through {end} is equal to {total}.");
+            
+
+
+
+            /* for (int i = 0; i <= 5; i++)
             {
                 for (int j = 0; j <= i; j++)
                 {
                     Console.Write("#");
                 }
                 Console.WriteLine();
-            }
+            } */
 
             /* Console.Write("Please type your name: ");
             var name = Console.ReadLine();
