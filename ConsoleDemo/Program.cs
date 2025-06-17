@@ -4,20 +4,21 @@
     {
         public static void Main(string[] args)
         {
-            string myStr = "Neun Welten";
+            /* string myStr = "Neun Welten";
             char[] charArr = myStr.ToCharArray();
             Array.Reverse(charArr);
             foreach (char charItem in charArr)
             {
                 Console.Write($"{charItem}");
-            }
-            
+            } */
+
 
             /* string[] namesArr = new string[] { "Haejoon", "Eunyung", "Mari", "Juwan" };
             foreach (string name in namesArr)
             {
                 Console.WriteLine($"{name}");
             } */
+
 
             /* int start = 0;
             int end = 0;
@@ -57,6 +58,36 @@
 
             Console.WriteLine("Hello, {0}", providedName);
             Console.WriteLine($"Hello, {providedName}"); */
+
+            try
+            {
+                Console.Write("First name: ");
+                string firstName = Console.ReadLine();
+                Console.Write("Last name: ");
+                string lastName = Console.ReadLine();
+                Console.Write("City: ");
+                string city = Console.ReadLine();
+                
+                DisplayResult(firstName, lastName, city);
+            }
+            catch (System.Exception e)
+            {
+                Console.WriteLine($"ERROR: {e}");
+            }
+
+        }
+
+        private static string ToReversedString(string message)
+        {
+            char[] messageChar = message.ToCharArray();
+            Array.Reverse(messageChar);
+            return String.Concat(messageChar);
+        }
+
+        private static void DisplayResult(string revFName, string revLName, string revCity)
+        {
+            Console.WriteLine($"Results:");
+            Console.WriteLine($"{ToReversedString(revFName)} {ToReversedString(revLName)} {ToReversedString(revCity)}");
         }
     }
 }
