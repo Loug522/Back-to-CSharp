@@ -87,7 +87,7 @@
         {
             Console.WriteLine("Choose an option:");
             Console.WriteLine("1) Guess the number");
-            Console.WriteLine("2) Guess the word");
+            Console.WriteLine("2) Guess the character");
             Console.WriteLine("3) EXIT");
 
             int userInput = int.Parse(Console.ReadLine());
@@ -99,7 +99,7 @@
             }
             else if (userInput == 2)
             {
-                Console.WriteLine($"Word guessing game");
+                CharacterGuessing();
                 return true;
             }
             else
@@ -132,8 +132,14 @@
                     incorrect = false;
                 }
             } while (incorrect);
+            Console.ReadLine();
         }
 
+        private static void CharacterGuessing()
+        {
+            Console.WriteLine($"Character guessing game!");
+            Console.ReadLine();
+        }
 
         /* private static string ToReversedString(string message)
         {
