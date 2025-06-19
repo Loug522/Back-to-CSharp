@@ -71,20 +71,17 @@
             DisplayResult("Hello, World!"); */
 
 
-            Menu();
+            DisplayMenu();
         }
 
-        public static bool ShowMenu()
+        public static void DisplayMenu()
         {
-            bool showMenu = true;
-
-            while (showMenu)
+            bool displayMenu = true;
+            while (displayMenu)
             {
-                return true;
+                displayMenu = Menu();
             }
-            return showMenu = false;
         }
-
 
         public static bool Menu()
         {
@@ -123,20 +120,18 @@
             {
                 Console.WriteLine($"Guess the number between 1 and 10");
                 int userInput = int.Parse(Console.ReadLine());
+                guesses++;
 
                 if (userInput != rNumber)
                 {
                     Console.WriteLine($"Wrong! Try Again!");
-                    guesses++;
                 }
                 else
                 {
-                    Console.WriteLine($"You guessed it! The number was {rNumber}");
+                    Console.WriteLine($"You guessed it! The number was {rNumber}! It took {guesses} guesses.");
                     incorrect = false;
                 }
             } while (incorrect);
-
-            Console.WriteLine($"Number of incorrect guesses {guesses}");
         }
 
 
