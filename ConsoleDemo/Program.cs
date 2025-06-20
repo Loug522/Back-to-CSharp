@@ -1,4 +1,4 @@
-﻿using ConsoleDemo;
+﻿using System.Text;
 
 namespace ConsoleDemo
 {
@@ -6,7 +6,9 @@ namespace ConsoleDemo
     {
         public static void Main(string[] args)
         {
-            MiniGames.DisplayMenu();
+
+            // BuildingStrings.StringsBuilder();
+            // MiniGames.DisplayMenu();
         }
     }
 }

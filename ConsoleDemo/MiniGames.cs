@@ -29,11 +29,13 @@ namespace ConsoleDemo
             if (userInput == 1)
             {
                 NumberGuessing();
+                ReturnToMenu();
                 return true;
             }
             else if (userInput == 2)
             {
                 CharacterGuessing();
+                ReturnToMenu();
                 return true;
             }
             else
@@ -68,7 +70,6 @@ namespace ConsoleDemo
                     incorrect = false;
                 }
             } while (incorrect);
-            ReturnToMenu();
         }
 
 
@@ -76,7 +77,6 @@ namespace ConsoleDemo
         private static void CharacterGuessing()
         {
             Console.WriteLine($"Character guessing game!");
-            ReturnToMenu();
         }
     }
 }
