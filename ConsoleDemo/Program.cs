@@ -6,6 +6,7 @@ namespace ConsoleDemo
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine($"{Dates.GetDate()}");
 
             // BuildingStrings.StringsBuilder();
             // MiniGames.DisplayMenu();
