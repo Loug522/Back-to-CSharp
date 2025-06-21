@@ -13,7 +13,6 @@
 
             Console.WriteLine($"{Vehicle.ReturnVehicleValue(vehicle):C}");
             Console.WriteLine(vehicle.ToString());
-            Console.WriteLine(vehicle.ToString);
             
             
             

@@ -10,7 +10,6 @@ namespace ConsoleDemo
         public string Color { get; set; }
         public string VType { get; set; }
 
-
         public static decimal ReturnVehicleValue(Vehicle vehicle)
         {
             decimal vehicleValue;
@@ -20,6 +19,11 @@ namespace ConsoleDemo
             else
                 vehicleValue = 5000;
             return vehicleValue;
+        }
+
+        public override string ToString()
+        {
+            return $"Make: {Make}\nModel: {Model}\nYear: {Year}\nColor: {Color}";
         }
     }
 }
