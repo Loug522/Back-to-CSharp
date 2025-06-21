@@ -5,8 +5,8 @@ namespace ConsoleDemo
 
         public static string GetDate()
         {
-            DateTime myBay = DateTime.Parse("10/23/1992");
-            TimeSpan myAge = DateTime.Now.Subtract(myBay);
+            DateTime myBday = DateTime.Parse("10/23/1992");
+            TimeSpan myAge = DateTime.Now.Subtract(myBday);
 
             return $"{myAge.TotalDays:.} days.";
         }
