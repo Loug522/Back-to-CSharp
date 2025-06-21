@@ -5,15 +5,17 @@
         public static void Main(string[] args)
         {
             Vehicle vehicle = new();
-
             vehicle.Make = "Infiniti";
             vehicle.Model = "FX50";
             vehicle.Year = 2006;
             vehicle.Color = "Purple";
             vehicle.VType = "SUV";
 
-            decimal value = Vehicle.ReturnVehicleValue(vehicle);
-            Console.WriteLine($"${value}");
+            Console.WriteLine($"{Vehicle.ReturnVehicleValue(vehicle):C}");
+            Console.WriteLine(vehicle.ToString());
+            Console.WriteLine(vehicle.ToString);
+            
+            
             
 
             // Console.WriteLine($"{Dates.GetDate()}");

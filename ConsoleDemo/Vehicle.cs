@@ -1,3 +1,5 @@
+using System.Security.Cryptography.X509Certificates;
+
 namespace ConsoleDemo
 {
     class Vehicle
@@ -7,12 +9,16 @@ namespace ConsoleDemo
         public int Year { get; set; }
         public string Color { get; set; }
         public string VType { get; set; }
-        
 
-    public static decimal ReturnVehicleValue(Vehicle vehicle)
+
+        public static decimal ReturnVehicleValue(Vehicle vehicle)
         {
-            decimal vehicleValue = 20.000M;
+            decimal vehicleValue;
 
+            if (vehicle.Year > 2000)
+                vehicleValue = 10000;
+            else
+                vehicleValue = 5000;
             return vehicleValue;
         }
     }
