@@ -4,15 +4,14 @@
     {
         public static void Main(string[] args)
         {
-            Vehicle vehicle = new();
-            vehicle.Make = "Infiniti";
-            vehicle.Model = "FX50";
-            vehicle.Year = 2006;
-            vehicle.Color = "Purple";
-            vehicle.VType = "SUV";
+            Vehicle vehicle = new("Infinity", "FX50", 2006, "Purple", "SUV");
+            Vehicle vehicle1 = new("Boat");
 
-            Console.WriteLine($"{Vehicle.ReturnVehicleValue(vehicle):C}");
-            Console.WriteLine(vehicle.ToString());
+            // Console.WriteLine($"{Vehicle.ReturnVehicleValue(vehicle):C}");
+            Console.WriteLine(vehicle);
+            Console.ReadLine();
+            Console.WriteLine(vehicle1.VType);
+            
             
             
             
