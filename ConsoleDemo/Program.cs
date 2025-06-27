@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using System.Net;
+using MyCodeLibrary;
 
 namespace ConsoleDemo
 {
@@ -7,14 +8,14 @@ namespace ConsoleDemo
     {
         public static void Main(string[] args)
         {
-            int[] myNumArr = { 1, 2, 3, 4, 5 };
+            var scrape = new Class1();
+            string result = scrape.ScrapeWebPage("https://ephinea.pioneer2.net/");
+            Console.WriteLine(result);
+          
+
+            /* int[] myNumArr = { 1, 2, 3, 4, 5 };
             string[] myCharArr = { "a", "b", "c", "d", "e" };
-            Console.WriteLine($"{DealingWithArrays.ReturnArray(myCharArr)}");
-
-
-            /* WebClient client = new();
-            string reply = client.DownloadString("https://www.google.com");        
-            File.WriteAllText("C:/Users/User/OneDrive/바탕 화면/CSharp/.git/Back-to-CSharp/ConsoleDemo/Test.txt", reply); */
+            Console.WriteLine($"{DealingWithArrays.ReturnArray(myCharArr)}"); */
 
 
             /* Vehicle vehicle = new("Infinity", "FX50", 2006, "Purple", "SUV");
