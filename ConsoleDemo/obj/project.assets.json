@@ -1080,11 +1080,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\OneDrive\\바탕 화면\\CSharp\\.git\\Back-to-CSharp\\ConsoleDemo\\ConsoleDemo.csproj",
+      "projectUniqueName": "D:\\Code\\Back-to-CSharp\\ConsoleDemo\\ConsoleDemo.csproj",
       "projectName": "ConsoleDemo",
-      "projectPath": "C:\\Users\\User\\OneDrive\\바탕 화면\\CSharp\\.git\\Back-to-CSharp\\ConsoleDemo\\ConsoleDemo.csproj",
+      "projectPath": "D:\\Code\\Back-to-CSharp\\ConsoleDemo\\ConsoleDemo.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\OneDrive\\바탕 화면\\CSharp\\.git\\Back-to-CSharp\\ConsoleDemo\\obj\\",
+      "outputPath": "D:\\Code\\Back-to-CSharp\\ConsoleDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"

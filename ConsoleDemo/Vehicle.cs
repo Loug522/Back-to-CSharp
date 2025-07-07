@@ -2,6 +2,8 @@ namespace ConsoleDemo
 {
     class Vehicle
     {
+        public Vehicle() { }
+        
         public Vehicle(string vehicleType)
         {
             VType = vehicleType;

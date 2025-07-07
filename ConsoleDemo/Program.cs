@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Collections;
+using System.IO;
 using System.Net;
 using MyCodeLibrary;
 
@@ -8,18 +9,37 @@ namespace ConsoleDemo
     {
         public static void Main(string[] args)
         {
-            var scrape = new Class1();
+            List<Vehicle> vehicles =
+            [
+                new Vehicle {
+                    Make = "infinity",
+                    Model = "FX50",
+                    Year = 2006,
+                    Color = "Purple",
+                    VType = "SUV"
+                },
+                new Vehicle {
+                    VType = "Motorcycle"
+                },
+                new Vehicle {
+                    VType = "Boat"
+                }
+            ];
+
+            foreach (Vehicle item in vehicles)
+            {
+                Console.WriteLine($"=> {item.VType}");
+            }           
+
+            
+            /* var scrape = new Class1();
             string result = scrape.ScrapeWebPage("https://ephinea.pioneer2.net/");
-            Console.WriteLine(result);
-          
+            Console.WriteLine(result); */
+
 
             /* int[] myNumArr = { 1, 2, 3, 4, 5 };
             string[] myCharArr = { "a", "b", "c", "d", "e" };
             Console.WriteLine($"{DealingWithArrays.ReturnArray(myCharArr)}"); */
-
-
-            /* Vehicle vehicle = new("Infinity", "FX50", 2006, "Purple", "SUV");
-            Vehicle vehicle1 = new("Boat"); */
 
 
             // Console.WriteLine($"{Vehicle.ReturnVehicleValue(vehicle):C}");

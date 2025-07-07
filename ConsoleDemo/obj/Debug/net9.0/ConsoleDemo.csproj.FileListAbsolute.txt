@@ -36,3 +36,41 @@ c:\Users\User\OneDrive\바탕 화면\CSharp\.git\Back-to-CSharp\ConsoleDemo\bin\
 c:\Users\User\OneDrive\바탕 화면\CSharp\.git\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 c:\Users\User\OneDrive\바탕 화면\CSharp\.git\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\ConsoleDemo.csproj.AssemblyReference.cache
 c:\Users\User\OneDrive\바탕 화면\CSharp\.git\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\ConsoleD.14CE8F7F.Up2Date
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\ConsoleDemo.exe
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\ConsoleDemo.deps.json
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\ConsoleDemo.runtimeconfig.json
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\ConsoleDemo.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\ConsoleDemo.pdb
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\EntityFramework.SqlServer.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\EntityFramework.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\MyCodeLibrary.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\System.CodeDom.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\System.Data.SqlClient.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\System.Drawing.Common.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\System.Security.Permissions.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\System.Windows.Extensions.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\runtimes\win-arm64\native\sni.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\runtimes\win-x64\native\sni.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\runtimes\win-x86\native\sni.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\ConsoleDemo.csproj.AssemblyReference.cache
+d:\Code\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\ConsoleDemo.GeneratedMSBuildEditorConfig.editorconfig
+d:\Code\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\ConsoleDemo.AssemblyInfoInputs.cache
+d:\Code\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\ConsoleDemo.AssemblyInfo.cs
+d:\Code\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\ConsoleDemo.csproj.CoreCompileInputs.cache
+d:\Code\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\ConsoleDemo.sourcelink.json
+d:\Code\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\ConsoleD.14CE8F7F.Up2Date
+d:\Code\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\ConsoleDemo.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\refint\ConsoleDemo.dll
+d:\Code\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\ConsoleDemo.pdb
+d:\Code\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\ConsoleDemo.genruntimeconfig.cache
+d:\Code\Back-to-CSharp\ConsoleDemo\obj\Debug\net9.0\ref\ConsoleDemo.dll
