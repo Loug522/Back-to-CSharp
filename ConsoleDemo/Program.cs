@@ -46,6 +46,15 @@ namespace ConsoleDemo
                 Console.WriteLine($"=> {car}");
             } */
 
+            /* var orderedVehicles = vehicles.OrderByDescending(v => v.VType);
+         // var firstInVehicles = vehicles.First(v => v.VType == "Boat");
+            foreach (var vehicle in orderedVehicles)
+            {
+                Console.WriteLine($"{vehicle.VType}");
+            } */
+
+            /* vehicles.ForEach(i => Console.WriteLine($"{i.VType}")); */
+
 
             /* var scrape = new Class1();
             string result = scrape.ScrapeWebPage("https://ephinea.pioneer2.net/");
