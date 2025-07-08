@@ -2,6 +2,7 @@
 using System.IO;
 using System.Net;
 using MyCodeLibrary;
+using System.Linq;
 
 namespace ConsoleDemo
 {
@@ -26,12 +27,26 @@ namespace ConsoleDemo
                 }
             ];
 
-            foreach (Vehicle item in vehicles)
-            {
-                Console.WriteLine($"=> {item.VType}");
-            }           
+            // LINQ Query
+            /* var cars =  from car in vehicles
+                        where car.VType == "SUV"
+                        select car;
 
-            
+            foreach (var car in cars)
+            {
+                Console.WriteLine($"=> {car}");
+            } */
+
+
+            // LINQ Method
+            /* var cars2 = vehicles.Where(p => p.Make == "infinity" && p.Year == 2006);
+
+            foreach (var car in cars2)
+            {
+                Console.WriteLine($"=> {car}");
+            } */
+
+
             /* var scrape = new Class1();
             string result = scrape.ScrapeWebPage("https://ephinea.pioneer2.net/");
             Console.WriteLine(result); */
